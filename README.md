@@ -16,7 +16,6 @@ Install the package and its R renderer dependency directly from GitHub:
 install.packages("remotes")
 remotes::install_github(
   "cannin/fcose_sbgn_r",
-  dependencies = TRUE,
   upgrade = "never"
 )
 ```
@@ -28,7 +27,7 @@ Clone the repository to use its bundled colorectal-cancer pathway:
 ```sh
 git clone https://github.com/cannin/fcose_sbgn_r.git
 cd fcose_sbgn_r
-Rscript -e 'install.packages("remotes"); remotes::install_deps(dependencies = TRUE)'
+Rscript -e 'install.packages("remotes"); remotes::install_deps(dependencies = NA)'
 Rscript fcose_sbgn_r.R \
   inst/extdata/hsa05210_2018.sbgn \
   --output output/hsa05210_2018_parp1_casp3_r.sbgn \
