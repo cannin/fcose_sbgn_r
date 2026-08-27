@@ -1,0 +1,6 @@
+^\.git$
+^\.gitignore$
+^\.lintr$
+^fcose_sbgn_r\.R$
+^run_example\.R$
+^output$

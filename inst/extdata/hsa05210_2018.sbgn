@@ -1,0 +1,1153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.3" xmlns:kgml="https://www.kegg.jp/kegg/xml/kgml" xmlns:render="http://www.sbml.org/sbml/level3/version1/render/version1">
+  <map id="map_hsa05210" language="activity flow" version="http://identifiers.org/combine.specifications/sbgn.af.level-1.version-1.2">
+    <extension>
+      <render:renderInformation id="render_information" program-name="kgml_to_sbgnml_af.py" program-version="1.0" background-color="#FFFFFFFF">
+        <render:listOfColorDefinitions>
+          <render:colorDefinition id="black" value="#000000FF" />
+          <render:colorDefinition id="gene_green" value="#BFFFBFFF" />
+          <render:colorDefinition id="white" value="#FFFFFFFF" />
+          <render:colorDefinition id="group_fill" value="#F5F5F5FF" />
+          <render:colorDefinition id="group_stroke" value="#808080FF" />
+        </render:listOfColorDefinitions>
+        <render:listOfStyles>
+          <render:style id="style_gene" idList="glyph_1 glyph_2 glyph_3 glyph_4 glyph_5 glyph_6 glyph_7 glyph_8 glyph_9 glyph_10 glyph_11 glyph_12 glyph_13 glyph_14 glyph_15 glyph_16 glyph_17 glyph_18 glyph_19 glyph_20 glyph_21 glyph_22 glyph_23 glyph_24 glyph_25 glyph_26 glyph_27 glyph_28 glyph_29 glyph_30 glyph_31 glyph_32 glyph_33 glyph_34 glyph_35 glyph_36 glyph_37 glyph_38 glyph_39 glyph_40 glyph_41 glyph_42 glyph_43 glyph_44 glyph_45 glyph_53 glyph_56 glyph_57 glyph_58 glyph_59 glyph_60 glyph_61 glyph_62 glyph_63 glyph_64 glyph_65 glyph_66 glyph_68 glyph_69 glyph_70 glyph_71 glyph_73 glyph_74 glyph_75 glyph_76 glyph_77 glyph_78 glyph_79 glyph_80 glyph_81 glyph_82 glyph_83">
+            <render:g font-size="8" font-family="Arial, Liberation Sans, sans-serif" font-color="black" stroke="black" stroke-width="1" fill="gene_green" />
+          </render:style>
+          <render:style id="style_map" idList="glyph_46 glyph_47 glyph_48 glyph_49 glyph_50 glyph_51 glyph_52 glyph_55 glyph_67 glyph_84">
+            <render:g font-size="10" font-family="Arial, Liberation Sans, sans-serif" font-color="black" stroke="black" stroke-width="1" fill="white" />
+          </render:style>
+          <render:style id="style_title" idList="glyph_54">
+            <render:g font-size="13" font-family="Arial, Liberation Sans, sans-serif" font-color="black" stroke="black" stroke-width="1" fill="white" />
+          </render:style>
+          <render:style id="style_group" idList="glyph_85 glyph_86">
+            <render:g font-size="8" font-family="Arial, Liberation Sans, sans-serif" font-color="black" stroke="group_stroke" stroke-width="1" fill="group_fill" />
+          </render:style>
+          <render:style id="style_compound" idList="glyph_72">
+            <render:g font-size="7" font-family="Arial, Liberation Sans, sans-serif" font-color="black" stroke="black" stroke-width="1" fill="white" />
+          </render:style>
+          <render:style id="style_arcs" idList="arc_1 arc_2 arc_3 arc_4 arc_5 arc_6 arc_7 arc_8 arc_9 arc_10 arc_11 arc_12 arc_13 arc_14 arc_15 arc_16 arc_17 arc_18 arc_19 arc_20 arc_21 arc_22 arc_28 arc_29 arc_30 arc_31 arc_32 arc_33 arc_34 arc_35 arc_42 arc_43 arc_44 arc_45 arc_46 arc_47 arc_48 arc_49 arc_50 arc_51 arc_52 arc_53 arc_54 arc_55 arc_56">
+            <render:g stroke="black" stroke-width="1" />
+          </render:style>
+          <render:style id="style_missing_arcs" idList="arc_23 arc_24 arc_25 arc_26 arc_27 arc_36 arc_37 arc_38 arc_39 arc_40 arc_41">
+            <render:g stroke="black" stroke-width="1" stroke-dasharray="6 4" />
+          </render:style>
+        </render:listOfStyles>
+      </render:renderInformation>
+    </extension>
+    <bbox x="0" y="0" w="1200" h="991.5" />
+    <glyph id="glyph_85" class="biological activity">
+      <extension>
+        <kgml:entry id="85" name="undefined" type="group">
+          <kgml:component entry-id="5" />
+          <kgml:component entry-id="6" />
+        </kgml:entry>
+      </extension>
+      <bbox x="400" y="503" w="46" h="34" />
+    </glyph>
+    <glyph id="glyph_86" class="biological activity">
+      <extension>
+        <kgml:entry id="86" name="undefined" type="group">
+          <kgml:component entry-id="10" />
+          <kgml:component entry-id="44" />
+        </kgml:entry>
+      </extension>
+      <bbox x="254" y="580" w="46" h="34" />
+    </glyph>
+    <glyph id="glyph_1" class="biological activity">
+      <extension>
+        <kgml:entry id="1" name="hsa:1630" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1630" />
+      </extension>
+      <label text="DCC" />
+      <bbox x="253" y="511.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_2" class="biological activity">
+      <extension>
+        <kgml:entry id="2" name="hsa:836" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:836" />
+      </extension>
+      <label text="CASP3" />
+      <bbox x="334" y="471.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_3" class="biological activity">
+      <extension>
+        <kgml:entry id="3" name="hsa:7040 hsa:7042 hsa:7043" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7040+hsa:7042+hsa:7043" />
+      </extension>
+      <label text="TGFβ" />
+      <bbox x="173" y="587.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_4" class="biological activity">
+      <extension>
+        <kgml:entry id="4" name="hsa:5290 hsa:5291 hsa:5293 hsa:5295 hsa:5296 hsa:8503" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5290+hsa:5291+hsa:5293+hsa:5295+hsa:5296+hsa:8503" />
+      </extension>
+      <label text="PI3K" />
+      <bbox x="476" y="348.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_5" class="biological activity">
+      <extension>
+        <kgml:entry id="5" name="hsa:842" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:842" />
+      </extension>
+      <label text="CASP9" />
+      <bbox x="400" y="503.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_6" class="biological activity">
+      <extension>
+        <kgml:entry id="6" name="hsa:26060" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:26060" />
+      </extension>
+      <label text="APPL1" />
+      <bbox x="400" y="520.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_7" class="biological activity">
+      <extension>
+        <kgml:entry id="7" name="hsa:836" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:836" />
+      </extension>
+      <label text="CASP3" />
+      <bbox x="535" y="511.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_8" class="biological activity">
+      <extension>
+        <kgml:entry id="8" name="hsa:10297 hsa:324" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10297+hsa:324" />
+      </extension>
+      <label text="APC" />
+      <bbox x="661" y="142.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_9" class="biological activity">
+      <extension>
+        <kgml:entry id="9" name="hsa:4087 hsa:4088" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4087+hsa:4088" />
+      </extension>
+      <label text="Smad2/3" />
+      <bbox x="405" y="589.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_10" class="biological activity">
+      <extension>
+        <kgml:entry id="10" name="hsa:7046" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7046" />
+      </extension>
+      <label text="TGFβRI" />
+      <bbox x="254" y="580.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_11" class="biological activity">
+      <extension>
+        <kgml:entry id="11" name="hsa:4089" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4089" />
+      </extension>
+      <label text="Smad4" />
+      <bbox x="405" y="621.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_12" class="biological activity">
+      <extension>
+        <kgml:entry id="12" name="hsa:4292" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4292" />
+      </extension>
+      <label text="hMLH1" />
+      <bbox x="859" y="517.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_13" class="biological activity">
+      <extension>
+        <kgml:entry id="13" name="hsa:4436" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4436" />
+      </extension>
+      <label text="hMSH2" />
+      <bbox x="859" y="538.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_14" class="biological activity">
+      <extension>
+        <kgml:entry id="14" name="hsa:3845" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3845" />
+      </extension>
+      <label text="K-Ras" />
+      <bbox x="421" y="394.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_15" class="biological activity">
+      <extension>
+        <kgml:entry id="15" name="hsa:369 hsa:5894 hsa:673" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:369+hsa:5894+hsa:673" />
+      </extension>
+      <label text="Raf" />
+      <bbox x="502" y="394.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_16" class="biological activity">
+      <extension>
+        <kgml:entry id="16" name="hsa:5599 hsa:5601 hsa:5602" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5599+hsa:5601+hsa:5602" />
+      </extension>
+      <label text="JNK" />
+      <bbox x="680" y="460.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_17" class="biological activity">
+      <extension>
+        <kgml:entry id="17" name="hsa:8312 hsa:8313" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8312+hsa:8313" />
+      </extension>
+      <label text="Axin" />
+      <bbox x="609" y="160.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_18" class="biological activity">
+      <extension>
+        <kgml:entry id="18" name="hsa:8312 hsa:8313" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:8312+hsa:8313" />
+      </extension>
+      <label text="Axin" />
+      <bbox x="611" y="241.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_19" class="biological activity">
+      <extension>
+        <kgml:entry id="19" name="hsa:5900" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5900" />
+      </extension>
+      <label text="RalGDS" />
+      <bbox x="470" y="460.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_20" class="biological activity">
+      <extension>
+        <kgml:entry id="20" name="hsa:387 hsa:5879 hsa:5880 hsa:5881" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:387+hsa:5879+hsa:5880+hsa:5881" />
+      </extension>
+      <label text="Rac/Rho" />
+      <bbox x="610" y="460.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_21" class="biological activity">
+      <extension>
+        <kgml:entry id="21" name="hsa:332" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:332" />
+      </extension>
+      <label text="Survivin" />
+      <bbox x="999" y="201.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_22" class="biological activity">
+      <extension>
+        <kgml:entry id="22" name="hsa:4609" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4609" />
+      </extension>
+      <label text="c-Myc" />
+      <bbox x="999" y="236.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_23" class="biological activity">
+      <extension>
+        <kgml:entry id="23" name="hsa:595" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:595" />
+      </extension>
+      <label text="CyclinD1" />
+      <bbox x="999" y="259.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_24" class="biological activity">
+      <extension>
+        <kgml:entry id="24" name="hsa:10297 hsa:324" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10297+hsa:324" />
+      </extension>
+      <label text="APC" />
+      <bbox x="657" y="241.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_25" class="biological activity">
+      <extension>
+        <kgml:entry id="25" name="hsa:5604 hsa:5605" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5604+hsa:5605" />
+      </extension>
+      <label text="MEK" />
+      <bbox x="581" y="394.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_26" class="biological activity">
+      <extension>
+        <kgml:entry id="26" name="hsa:5594 hsa:5595" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5594+hsa:5595" />
+      </extension>
+      <label text="ERK" />
+      <bbox x="741" y="394.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_27" class="biological activity">
+      <extension>
+        <kgml:entry id="27" name="hsa:3725" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3725" />
+      </extension>
+      <label text="c-Jun" />
+      <bbox x="883" y="369.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_28" class="biological activity">
+      <extension>
+        <kgml:entry id="28" name="hsa:2353" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2353" />
+      </extension>
+      <label text="c-Fos" />
+      <bbox x="883" y="394.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_29" class="biological activity">
+      <extension>
+        <kgml:entry id="29" name="hsa:4609" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4609" />
+      </extension>
+      <label text="c-Myc" />
+      <bbox x="883" y="419.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_30" class="biological activity">
+      <extension>
+        <kgml:entry id="30" name="hsa:54205" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:54205" />
+      </extension>
+      <label text="Cyt c" />
+      <bbox x="532" y="775.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_31" class="biological activity">
+      <extension>
+        <kgml:entry id="31" name="hsa:596" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:596" />
+      </extension>
+      <label text="Bcl-2" />
+      <bbox x="629" y="736.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_32" class="biological activity">
+      <extension>
+        <kgml:entry id="32" name="hsa:7157" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7157" />
+      </extension>
+      <label text="p53" />
+      <bbox x="880" y="761.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_33" class="biological activity">
+      <extension>
+        <kgml:entry id="33" name="hsa:51176 hsa:6932 hsa:6934 hsa:83439" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51176+hsa:6932+hsa:6934+hsa:83439" />
+      </extension>
+      <label text="TCF/LEF" />
+      <bbox x="883" y="220.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_34" class="biological activity">
+      <extension>
+        <kgml:entry id="34" name="hsa:2932" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2932" />
+      </extension>
+      <label text="GSK-3β" />
+      <bbox x="568" y="177.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_35" class="biological activity">
+      <extension>
+        <kgml:entry id="35" name="hsa:2932" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2932" />
+      </extension>
+      <label text="GSK-3β" />
+      <bbox x="569" y="258.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_36" class="biological activity">
+      <extension>
+        <kgml:entry id="36" name="hsa:1499" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1499" />
+      </extension>
+      <label text="β-catenin" />
+      <bbox x="650" y="177.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_37" class="biological activity">
+      <extension>
+        <kgml:entry id="37" name="hsa:1499" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1499" />
+      </extension>
+      <label text="β-catenin" />
+      <bbox x="653" y="258.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_38" class="biological activity">
+      <extension>
+        <kgml:entry id="38" name="hsa:10000 hsa:207 hsa:208" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208" />
+      </extension>
+      <label text="PKB/Akt" />
+      <bbox x="502" y="305.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_39" class="biological activity">
+      <extension>
+        <kgml:entry id="39" name="hsa:572" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:572" />
+      </extension>
+      <label text="Bad" />
+      <bbox x="591" y="331.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_40" class="biological activity">
+      <extension>
+        <kgml:entry id="40" name="hsa:842" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:842" />
+      </extension>
+      <label text="CASP9" />
+      <bbox x="591" y="357.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_41" class="biological activity">
+      <extension>
+        <kgml:entry id="41" name="hsa:2956" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2956" />
+      </extension>
+      <label text="hMSH6" />
+      <bbox x="1058" y="670.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_42" class="biological activity">
+      <extension>
+        <kgml:entry id="42" name="hsa:581" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:581" />
+      </extension>
+      <label text="Bax" />
+      <bbox x="1002" y="697.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_43" class="biological activity">
+      <extension>
+        <kgml:entry id="43" name="hsa:4437" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:4437" />
+      </extension>
+      <label text="hMSH3" />
+      <bbox x="1002" y="670.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_44" class="biological activity">
+      <extension>
+        <kgml:entry id="44" name="hsa:7048" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7048" />
+      </extension>
+      <label text="TGFβRII" />
+      <bbox x="254" y="597.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_45" class="biological activity">
+      <extension>
+        <kgml:entry id="45" name="hsa:7048" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7048" />
+      </extension>
+      <label text="TGFβRII" />
+      <bbox x="1002" y="644.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_46" class="submap">
+      <extension>
+        <kgml:entry id="46" name="path:hsa04310" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04310" />
+      </extension>
+      <label text="Wnt signaling pathway" />
+      <bbox x="415.5" y="200" w="111" h="34" />
+    </glyph>
+    <glyph id="glyph_47" class="submap">
+      <extension>
+        <kgml:entry id="47" name="path:hsa04110" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04110" />
+      </extension>
+      <label text="Cell cycle" />
+      <bbox x="968.5" y="321.5" w="111" h="25" />
+    </glyph>
+    <glyph id="glyph_48" class="submap">
+      <extension>
+        <kgml:entry id="48" name="path:hsa04210" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04210" />
+      </extension>
+      <label text="Apoptosis" />
+      <bbox x="657.5" y="304.5" w="111" h="25" />
+    </glyph>
+    <glyph id="glyph_49" class="submap">
+      <extension>
+        <kgml:entry id="49" name="path:hsa04010" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04010" />
+      </extension>
+      <label text="MAPK signaling pathway" />
+      <bbox x="580.5" y="418" w="111" h="34" />
+    </glyph>
+    <glyph id="glyph_50" class="submap">
+      <extension>
+        <kgml:entry id="50" name="path:hsa04350" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04350" />
+      </extension>
+      <label text="TGF-beta signaling pathway" />
+      <bbox x="553.5" y="553" w="111" h="34" />
+    </glyph>
+    <glyph id="glyph_51" class="submap">
+      <extension>
+        <kgml:entry id="51" name="path:hsa04210" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04210" />
+      </extension>
+      <label text="Apoptosis" />
+      <bbox x="355.5" y="755.5" w="111" h="25" />
+    </glyph>
+    <glyph id="glyph_52" class="submap">
+      <extension>
+        <kgml:entry id="52" name="path:hsa04115" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04115" />
+      </extension>
+      <label text="p53 signaling pathway" />
+      <bbox x="845.5" y="790" w="111" h="34" />
+    </glyph>
+    <glyph id="glyph_53" class="biological activity">
+      <extension>
+        <kgml:entry id="53" name="hsa:595" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:595" />
+      </extension>
+      <label text="CyclinD1" />
+      <bbox x="1000" y="395.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_54" class="submap">
+      <extension>
+        <kgml:entry id="54" name="path:hsa05210" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa05210" />
+      </extension>
+      <label text="COLORECTAL CANCER" />
+      <bbox x="52" y="30.5" w="176" h="25" />
+    </glyph>
+    <glyph id="glyph_55" class="submap">
+      <extension>
+        <kgml:entry id="55" name="path:hsa04151" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04151" />
+      </extension>
+      <label text="PI3K-Akt signaling pathway" />
+      <bbox x="370.5" y="309" w="111" h="34" />
+    </glyph>
+    <glyph id="glyph_56" class="biological activity">
+      <extension>
+        <kgml:entry id="56" name="hsa:1026" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1026" />
+      </extension>
+      <label text="p21" />
+      <bbox x="1010" y="741.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_57" class="biological activity">
+      <extension>
+        <kgml:entry id="57" name="hsa:10912 hsa:1647 hsa:4616" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10912+hsa:1647+hsa:4616" />
+      </extension>
+      <label text="GADD45" />
+      <bbox x="1062" y="741.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_58" class="biological activity">
+      <extension>
+        <kgml:entry id="58" name="hsa:581" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:581" />
+      </extension>
+      <label text="Bax" />
+      <bbox x="1010" y="763.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_59" class="biological activity">
+      <extension>
+        <kgml:entry id="59" name="hsa:578" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:578" />
+      </extension>
+      <label text="Bak" />
+      <bbox x="1062" y="763.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_60" class="biological activity">
+      <extension>
+        <kgml:entry id="60" name="hsa:1643" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1643" />
+      </extension>
+      <label text="p48" />
+      <bbox x="1010" y="785.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_61" class="biological activity">
+      <extension>
+        <kgml:entry id="61" name="hsa:51426" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:51426" />
+      </extension>
+      <label text="POLK" />
+      <bbox x="1062" y="785.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_62" class="biological activity">
+      <extension>
+        <kgml:entry id="62" name="hsa:5366" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5366" />
+      </extension>
+      <label text="NOXA" />
+      <bbox x="629" y="778.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_63" class="biological activity">
+      <extension>
+        <kgml:entry id="63" name="hsa:572" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:572" />
+      </extension>
+      <label text="BAD" />
+      <bbox x="681" y="778.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_64" class="biological activity">
+      <extension>
+        <kgml:entry id="64" name="hsa:10018" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10018" />
+      </extension>
+      <label text="BIM" />
+      <bbox x="629" y="800.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_65" class="biological activity">
+      <extension>
+        <kgml:entry id="65" name="hsa:27113" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:27113" />
+      </extension>
+      <label text="PUMA" />
+      <bbox x="681" y="800.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_66" class="biological activity">
+      <extension>
+        <kgml:entry id="66" name="hsa:5898 hsa:5899" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5898+hsa:5899" />
+      </extension>
+      <label text="Ral" />
+      <bbox x="540" y="460.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_67" class="submap">
+      <extension>
+        <kgml:entry id="67" name="path:hsa04150" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04150" />
+      </extension>
+      <label text="mTOR signaling pathway" />
+      <bbox x="551.5" y="904" w="111" h="34" />
+    </glyph>
+    <glyph id="glyph_68" class="biological activity">
+      <extension>
+        <kgml:entry id="68" name="hsa:3265 hsa:3845 hsa:4893" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:3265+hsa:3845+hsa:4893" />
+      </extension>
+      <label text="Ras" />
+      <bbox x="465" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_69" class="biological activity">
+      <extension>
+        <kgml:entry id="69" name="hsa:6198 hsa:6199" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6198+hsa:6199" />
+      </extension>
+      <label text="p70S6K" />
+      <bbox x="624" y="944.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_70" class="biological activity">
+      <extension>
+        <kgml:entry id="70" name="hsa:6654 hsa:6655" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:6654+hsa:6655" />
+      </extension>
+      <label text="Sos" />
+      <bbox x="397" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_71" class="biological activity">
+      <extension>
+        <kgml:entry id="71" name="hsa:2885" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2885" />
+      </extension>
+      <label text="Grb2" />
+      <bbox x="328" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_72" class="biological activity">
+      <extension>
+        <kgml:entry id="72" name="cpd:C05981" type="compound" link="http://www.kegg.jp/dbget-bin/www_bget?C05981" />
+      </extension>
+      <label text="PIP3" />
+      <bbox x="434" y="949" w="8" h="8" />
+    </glyph>
+    <glyph id="glyph_73" class="biological activity">
+      <extension>
+        <kgml:entry id="73" name="hsa:2475" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2475" />
+      </extension>
+      <label text="mTOR" />
+      <bbox x="547" y="944.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_74" class="biological activity">
+      <extension>
+        <kgml:entry id="74" name="hsa:10000 hsa:207 hsa:208" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:10000+hsa:207+hsa:208" />
+      </extension>
+      <label text="PKB/Akt" />
+      <bbox x="471" y="944.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_75" class="biological activity">
+      <extension>
+        <kgml:entry id="75" name="hsa:5290 hsa:5291 hsa:5293 hsa:5295 hsa:5296 hsa:8503" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5290+hsa:5291+hsa:5293+hsa:5295+hsa:5296+hsa:8503" />
+      </extension>
+      <label text="PI3K" />
+      <bbox x="358" y="944.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_76" class="biological activity">
+      <extension>
+        <kgml:entry id="76" name="hsa:5594 hsa:5595" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5594+hsa:5595" />
+      </extension>
+      <label text="ERK1/2" />
+      <bbox x="669" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_77" class="biological activity">
+      <extension>
+        <kgml:entry id="77" name="hsa:5604 hsa:5605" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:5604+hsa:5605" />
+      </extension>
+      <label text="MEK" />
+      <bbox x="602" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_78" class="biological activity">
+      <extension>
+        <kgml:entry id="78" name="hsa:369 hsa:5894 hsa:673" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:369+hsa:5894+hsa:673" />
+      </extension>
+      <label text="Raf" />
+      <bbox x="534" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_79" class="biological activity">
+      <extension>
+        <kgml:entry id="79" name="hsa:1956" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1956" />
+      </extension>
+      <label text="EGFR" />
+      <bbox x="254" y="908.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_80" class="biological activity">
+      <extension>
+        <kgml:entry id="80" name="hsa:1950" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:1950" />
+      </extension>
+      <label text="EGF" />
+      <bbox x="173" y="874.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_81" class="biological activity">
+      <extension>
+        <kgml:entry id="81" name="hsa:7039" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:7039" />
+      </extension>
+      <label text="TGF-α" />
+      <bbox x="173" y="897.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_82" class="biological activity">
+      <extension>
+        <kgml:entry id="82" name="hsa:2069" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:2069" />
+      </extension>
+      <label text="ERG" />
+      <bbox x="173" y="920.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_83" class="biological activity">
+      <extension>
+        <kgml:entry id="83" name="hsa:374" type="gene" link="http://www.kegg.jp/dbget-bin/www_bget?hsa:374" />
+      </extension>
+      <label text="AREG" />
+      <bbox x="173" y="943.5" w="46" h="17" />
+    </glyph>
+    <glyph id="glyph_84" class="submap">
+      <extension>
+        <kgml:entry id="84" name="path:hsa04012" type="map" link="http://www.kegg.jp/dbget-bin/www_bget?hsa04012" />
+      </extension>
+      <label text="ErbB signaling pathway" />
+      <bbox x="141.5" y="804" w="111" h="34" />
+    </glyph>
+    <arc id="arc_1" class="positive influence" source="glyph_36" target="glyph_33">
+      <extension>
+        <kgml:relation entry1="36" entry2="33" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="696" y="190.245" />
+      <end x="883" y="224.755" />
+    </arc>
+    <arc id="arc_2" class="positive influence" source="glyph_37" target="glyph_33">
+      <extension>
+        <kgml:relation entry1="37" entry2="33" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="699" y="263.2" />
+      <end x="883" y="232.8" />
+    </arc>
+    <arc id="arc_3" class="positive influence" source="glyph_14" target="glyph_4">
+      <extension>
+        <kgml:relation entry1="14" entry2="4" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="454.163" y="394.5" />
+      <end x="488.837" y="365.5" />
+    </arc>
+    <arc id="arc_4" class="positive influence" source="glyph_4" target="glyph_38">
+      <extension>
+        <kgml:relation entry1="4" entry2="38" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="504.14" y="348.5" />
+      <end x="519.86" y="322.5" />
+    </arc>
+    <arc id="arc_5" class="positive influence" source="glyph_14" target="glyph_15">
+      <extension>
+        <kgml:relation entry1="14" entry2="15" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="467" y="403" />
+      <end x="502" y="403" />
+    </arc>
+    <arc id="arc_6" class="positive influence" source="glyph_14" target="glyph_19">
+      <extension>
+        <kgml:relation entry1="14" entry2="19" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="450.311" y="411.5" />
+      <end x="486.689" y="460.5" />
+    </arc>
+    <arc id="arc_7" class="positive influence" source="glyph_20" target="glyph_16">
+      <extension>
+        <kgml:relation entry1="20" entry2="16" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="656" y="469" />
+      <end x="680" y="469" />
+    </arc>
+    <arc id="arc_8" class="positive influence" source="glyph_33" target="glyph_21">
+      <extension>
+        <kgml:relation entry1="33" entry2="21" type="GErel">
+          <kgml:subtype name="expression" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="929" y="225.233" />
+      <end x="999" y="213.767" />
+    </arc>
+    <arc id="arc_9" class="positive influence" source="glyph_33" target="glyph_22">
+      <extension>
+        <kgml:relation entry1="33" entry2="22" type="GErel">
+          <kgml:subtype name="expression" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="929" y="232.172" />
+      <end x="999" y="241.828" />
+    </arc>
+    <arc id="arc_10" class="positive influence" source="glyph_33" target="glyph_23">
+      <extension>
+        <kgml:relation entry1="33" entry2="23" type="GErel">
+          <kgml:subtype name="expression" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="929" y="236.733" />
+      <end x="999" y="260.267" />
+    </arc>
+    <arc id="arc_11" class="positive influence" source="glyph_27" target="glyph_53">
+      <extension>
+        <kgml:relation entry1="27" entry2="53" type="GErel">
+          <kgml:subtype name="expression" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="929" y="383.111" />
+      <end x="1000" y="398.889" />
+    </arc>
+    <arc id="arc_12" class="positive influence" source="glyph_28" target="glyph_53">
+      <extension>
+        <kgml:relation entry1="28" entry2="53" type="GErel">
+          <kgml:subtype name="expression" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="929" y="403.197" />
+      <end x="1000" y="403.803" />
+    </arc>
+    <arc id="arc_13" class="positive influence" source="glyph_29" target="glyph_53">
+      <extension>
+        <kgml:relation entry1="29" entry2="53" type="GErel">
+          <kgml:subtype name="expression" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="929" y="423.282" />
+      <end x="1000" y="408.718" />
+    </arc>
+    <arc id="arc_14" class="positive influence" source="glyph_2" target="glyph_1">
+      <extension>
+        <kgml:relation entry1="2" entry2="1" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="339.788" y="488.5" />
+      <end x="293.212" y="511.5" />
+    </arc>
+    <arc id="arc_15" class="positive influence" source="glyph_38" target="glyph_35">
+      <extension>
+        <kgml:relation entry1="38" entry2="35" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="537.117" y="305.5" />
+      <end x="579.883" y="275.5" />
+    </arc>
+    <arc id="arc_16" class="positive influence" source="glyph_38" target="glyph_39">
+      <extension>
+        <kgml:relation entry1="38" entry2="39" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="548" y="320.719" />
+      <end x="591" y="333.281" />
+    </arc>
+    <arc id="arc_17" class="positive influence" source="glyph_38" target="glyph_40">
+      <extension>
+        <kgml:relation entry1="38" entry2="40" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="539.548" y="322.5" />
+      <end x="599.452" y="357.5" />
+    </arc>
+    <arc id="arc_18" class="positive influence" source="glyph_15" target="glyph_25">
+      <extension>
+        <kgml:relation entry1="15" entry2="25" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="548" y="403" />
+      <end x="581" y="403" />
+    </arc>
+    <arc id="arc_19" class="positive influence" source="glyph_25" target="glyph_26">
+      <extension>
+        <kgml:relation entry1="25" entry2="26" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="627" y="403" />
+      <end x="741" y="403" />
+    </arc>
+    <arc id="arc_20" class="positive influence" source="glyph_26" target="glyph_27">
+      <extension>
+        <kgml:relation entry1="26" entry2="27" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="787" y="398.951" />
+      <end x="883" y="382.049" />
+    </arc>
+    <arc id="arc_21" class="positive influence" source="glyph_26" target="glyph_28">
+      <extension>
+        <kgml:relation entry1="26" entry2="28" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="787" y="403" />
+      <end x="883" y="403" />
+    </arc>
+    <arc id="arc_22" class="positive influence" source="glyph_26" target="glyph_29">
+      <extension>
+        <kgml:relation entry1="26" entry2="29" type="PPrel">
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="787" y="407.049" />
+      <end x="883" y="423.951" />
+    </arc>
+    <arc id="arc_23" class="unknown influence" source="glyph_34" target="glyph_36">
+      <extension>
+        <kgml:relation entry1="34" entry2="36" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="614" y="186" />
+      <end x="650" y="186" />
+    </arc>
+    <arc id="arc_24" class="unknown influence" source="glyph_35" target="glyph_37">
+      <extension>
+        <kgml:relation entry1="35" entry2="37" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="615" y="267" />
+      <end x="653" y="267" />
+    </arc>
+    <arc id="arc_25" class="unknown influence" source="glyph_1" target="glyph_85">
+      <extension>
+        <kgml:relation entry1="1" entry2="85" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="299" y="520" />
+      <end x="400" y="520" />
+    </arc>
+    <arc id="arc_26" class="unknown influence" source="glyph_85" target="glyph_7">
+      <extension>
+        <kgml:relation entry1="85" entry2="7" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="446" y="520" />
+      <end x="535" y="520" />
+    </arc>
+    <arc id="arc_27" class="unknown influence" source="glyph_86" target="glyph_9">
+      <extension>
+        <kgml:relation entry1="86" entry2="9" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="300" y="597.152" />
+      <end x="405" y="597.848" />
+    </arc>
+    <arc id="arc_28" class="positive influence" source="glyph_9" target="glyph_11">
+      <extension>
+        <kgml:relation entry1="9" entry2="11" type="PPrel">
+          <kgml:subtype name="binding/association" value="---" />
+        </kgml:relation>
+      </extension>
+      <start x="428" y="606.5" />
+      <end x="428" y="621.5" />
+    </arc>
+    <arc id="arc_29" class="positive influence" source="glyph_19" target="glyph_66">
+      <extension>
+        <kgml:relation entry1="19" entry2="66" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="516" y="469" />
+      <end x="540" y="469" />
+    </arc>
+    <arc id="arc_30" class="positive influence" source="glyph_66" target="glyph_20">
+      <extension>
+        <kgml:relation entry1="66" entry2="20" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="586" y="469" />
+      <end x="610" y="469" />
+    </arc>
+    <arc id="arc_31" class="negative influence" source="glyph_42" target="glyph_31">
+      <extension>
+        <kgml:relation entry1="42" entry2="31" type="PPrel">
+          <kgml:subtype name="inhibition" value="--|" />
+        </kgml:relation>
+      </extension>
+      <start x="1002" y="708.405" />
+      <end x="675" y="742.595" />
+    </arc>
+    <arc id="arc_32" class="negative influence" source="glyph_62" target="glyph_31">
+      <extension>
+        <kgml:relation entry1="62" entry2="31" type="PPrel">
+          <kgml:subtype name="inhibition" value="--|" />
+        </kgml:relation>
+      </extension>
+      <start x="652" y="778.5" />
+      <end x="652" y="753.5" />
+    </arc>
+    <arc id="arc_33" class="negative influence" source="glyph_63" target="glyph_31">
+      <extension>
+        <kgml:relation entry1="63" entry2="31" type="PPrel">
+          <kgml:subtype name="inhibition" value="--|" />
+        </kgml:relation>
+      </extension>
+      <start x="693.476" y="778.5" />
+      <end x="662.524" y="753.5" />
+    </arc>
+    <arc id="arc_34" class="negative influence" source="glyph_64" target="glyph_31">
+      <extension>
+        <kgml:relation entry1="64" entry2="31" type="PPrel">
+          <kgml:subtype name="inhibition" value="--|" />
+        </kgml:relation>
+      </extension>
+      <start x="652" y="800.5" />
+      <end x="652" y="753.5" />
+    </arc>
+    <arc id="arc_35" class="negative influence" source="glyph_65" target="glyph_31">
+      <extension>
+        <kgml:relation entry1="65" entry2="31" type="PPrel">
+          <kgml:subtype name="inhibition" value="--|" />
+        </kgml:relation>
+      </extension>
+      <start x="697.094" y="800.5" />
+      <end x="658.906" y="753.5" />
+    </arc>
+    <arc id="arc_36" class="unknown influence" source="glyph_32" target="glyph_56">
+      <extension>
+        <kgml:relation entry1="32" entry2="56" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="926" y="766.462" />
+      <end x="1010" y="753.538" />
+    </arc>
+    <arc id="arc_37" class="unknown influence" source="glyph_32" target="glyph_57">
+      <extension>
+        <kgml:relation entry1="32" entry2="57" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="926" y="767.473" />
+      <end x="1062" y="752.527" />
+    </arc>
+    <arc id="arc_38" class="unknown influence" source="glyph_32" target="glyph_58">
+      <extension>
+        <kgml:relation entry1="32" entry2="58" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="926" y="770.354" />
+      <end x="1010" y="771.646" />
+    </arc>
+    <arc id="arc_39" class="unknown influence" source="glyph_32" target="glyph_59">
+      <extension>
+        <kgml:relation entry1="32" entry2="59" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="926" y="770.253" />
+      <end x="1062" y="771.747" />
+    </arc>
+    <arc id="arc_40" class="unknown influence" source="glyph_32" target="glyph_60">
+      <extension>
+        <kgml:relation entry1="32" entry2="60" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="926" y="774.246" />
+      <end x="1010" y="789.754" />
+    </arc>
+    <arc id="arc_41" class="unknown influence" source="glyph_32" target="glyph_61">
+      <extension>
+        <kgml:relation entry1="32" entry2="61" type="PPrel">
+          <kgml:subtype name="missing interaction" value="-/-" />
+        </kgml:relation>
+      </extension>
+      <start x="926" y="773.033" />
+      <end x="1062" y="790.967" />
+    </arc>
+    <arc id="arc_42" class="positive influence" source="glyph_80" target="glyph_79">
+      <extension>
+        <kgml:relation entry1="80" entry2="79" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="216.25" y="891.5" />
+      <end x="256.75" y="908.5" />
+    </arc>
+    <arc id="arc_43" class="positive influence" source="glyph_81" target="glyph_79">
+      <extension>
+        <kgml:relation entry1="81" entry2="79" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="219" y="909.123" />
+      <end x="254" y="913.877" />
+    </arc>
+    <arc id="arc_44" class="positive influence" source="glyph_82" target="glyph_79">
+      <extension>
+        <kgml:relation entry1="82" entry2="79" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="219" y="925.593" />
+      <end x="254" y="920.407" />
+    </arc>
+    <arc id="arc_45" class="positive influence" source="glyph_83" target="glyph_79">
+      <extension>
+        <kgml:relation entry1="83" entry2="79" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="215.671" y="943.5" />
+      <end x="257.329" y="925.5" />
+    </arc>
+    <arc id="arc_46" class="positive influence" source="glyph_79" target="glyph_71">
+      <extension>
+        <kgml:relation entry1="79" entry2="71" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="295.5" y="908.5" />
+      <end x="332.5" y="891.5" />
+    </arc>
+    <arc id="arc_47" class="positive influence" source="glyph_71" target="glyph_70">
+      <extension>
+        <kgml:relation entry1="71" entry2="70" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="374" y="883" />
+      <end x="397" y="883" />
+    </arc>
+    <arc id="arc_48" class="positive influence" source="glyph_70" target="glyph_68">
+      <extension>
+        <kgml:relation entry1="70" entry2="68" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="443" y="883" />
+      <end x="465" y="883" />
+    </arc>
+    <arc id="arc_49" class="positive influence" source="glyph_68" target="glyph_78">
+      <extension>
+        <kgml:relation entry1="68" entry2="78" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="511" y="883" />
+      <end x="534" y="883" />
+    </arc>
+    <arc id="arc_50" class="positive influence" source="glyph_75" target="glyph_72">
+      <extension>
+        <kgml:relation entry1="75" entry2="72" type="PCrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="404" y="953" />
+      <end x="434" y="953" />
+    </arc>
+    <arc id="arc_51" class="positive influence" source="glyph_72" target="glyph_74">
+      <extension>
+        <kgml:relation entry1="72" entry2="74" type="PCrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="442" y="953" />
+      <end x="471" y="953" />
+    </arc>
+    <arc id="arc_52" class="positive influence" source="glyph_74" target="glyph_73">
+      <extension>
+        <kgml:relation entry1="74" entry2="73" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="517" y="953" />
+      <end x="547" y="953" />
+    </arc>
+    <arc id="arc_53" class="positive influence" source="glyph_73" target="glyph_69">
+      <extension>
+        <kgml:relation entry1="73" entry2="69" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="593" y="953" />
+      <end x="624" y="953" />
+    </arc>
+    <arc id="arc_54" class="positive influence" source="glyph_78" target="glyph_77">
+      <extension>
+        <kgml:relation entry1="78" entry2="77" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="580" y="883" />
+      <end x="602" y="883" />
+    </arc>
+    <arc id="arc_55" class="positive influence" source="glyph_77" target="glyph_76">
+      <extension>
+        <kgml:relation entry1="77" entry2="76" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+          <kgml:subtype name="phosphorylation" value="+p" />
+        </kgml:relation>
+      </extension>
+      <start x="648" y="883" />
+      <end x="669" y="883" />
+    </arc>
+    <arc id="arc_56" class="positive influence" source="glyph_79" target="glyph_75">
+      <extension>
+        <kgml:relation entry1="79" entry2="75" type="PPrel">
+          <kgml:subtype name="activation" value="--&gt;" />
+          <kgml:subtype name="indirect effect" value="..&gt;" />
+        </kgml:relation>
+      </extension>
+      <start x="300" y="924.962" />
+      <end x="358" y="945.038" />
+    </arc>
+  </map>
+</sbgn>
