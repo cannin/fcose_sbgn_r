@@ -4,7 +4,7 @@
 > This repository is archived. Active development has moved to
 > [cannin/render_sbgn](https://github.com/cannin/fcose_sbgn). The R
 > implementation is now maintained in the monorepo's
-> [python directory](https://github.com/cannin/fcose_sbgn/tree/main/r).
+> [r directory](https://github.com/cannin/fcose_sbgn/tree/main/r).
 
 
 Native R SBGN-ML adapter with spectral initialization and incremental
